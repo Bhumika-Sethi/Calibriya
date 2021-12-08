@@ -13,6 +13,7 @@ body{
     /* background-color: #202124; */
     /* background-color: rgb(28 24 11);; */
     background-color: black;
+    background-color: white;
     color: #999;
     color: black;
     /* color: white; */
@@ -32,6 +33,13 @@ body{
     background: #fff;
     padding: 5px;
     overflow: hidden;
+    /* border: 1px solid grey; */
+    /* box-shadow: ; */
+    box-shadow: 0 0 20px 9px #ffdaa3;
+    box-shadow: 0 0 20px 9px #8b6b3c;
+    box-shadow: 0 0 20px 9px #787878;
+
+
 }
 
 .button-section{
@@ -76,6 +84,8 @@ a:hover{
     width: 110px;
     height: 100%;
     background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #ffe210, #ffad06);
+    background: linear-gradient(to right, #ffad06, #ffe210);
     border-radius: 30px;
     transition: .5s;
 }
@@ -137,6 +147,7 @@ a:hover{
     display: block;
     margin: auto;
     background:linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, #ffad06, #ffe210);
     border: 0;
     outline: none;
     border-radius: 30px;
